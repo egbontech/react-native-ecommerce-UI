@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "template",
+    "name": "egbontech_ecommerce",
     "slug": "template",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.egbontech.ecommerce"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c6c4089-480e-4f62-b478-5f3a64b4cdf6"
+      }
     }
   }
 }
